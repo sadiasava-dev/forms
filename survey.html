@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <nav>
+        <a href="login.html">Login</a>
+        <a href="survey.html">Survey</a>
+        <a href="job application.html">Job-Application</a>
+    </nav>
+    <main>
+        <h2>Survey Form</h2>
+        <form action=" ">
+            <lebel>Name:</lebel>
+            <input type="text" id="name" name="full name" placeholder="Enter your full name" required>
+            <br>
+            <br>
+            <lebel>Age:</lebel>
+            <select name="age" id="age">
+                <option value="15-19">15-19</option>
+                <option value="20-30">20-30</option>
+                <option value="31-35">31-35</option>
+            </select>
+            <br>
+            <br>
+            <lebel for="rating">Rating:</lebel>
+            <input type="range" min="1" max="10" value="5">
+            <br>
+            <br>
+            <lebel for="comments">Comments:</lebel>
+            <textarea row="4" cols="15" name="comments" id="comments" placeholder="Enter your comments here">
+  </textarea>
+            <br>
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+
+
+        </form>
+
+
+    </main>
+    <footer>
+        <p>&copy; All right reserved by <b>son hak</b></p>
+    </footer>
+
+</body>
+
+</html>

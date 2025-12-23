@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Job Application Form</title>
+</head>
+
+<nav>
+        <a href="login.html">Login</a>
+        <a href="survey.html">Survey</a>
+        <a href="job application.html">Job-Application</a>
+    </nav>
+    <h1>Job Application Form</h1>
+
+
+        <!-- Personal Details -->
+        <h3>Personal Details</h3>
+
+        <label>First Name:</label><br>
+        <input type="text" name="first_name" required><br><br>
+
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name" required><br><br>
+
+        <label>Father's Name:</label><br>
+        <input type="text" name="father_name" required><br><br>
+
+        <label>Mother's Name:</label><br>
+        <input type="text" name="mother_name" required><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other<br><br>
+
+        <label>Nationality:</label><br>
+        <input type="text" name="nationality" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" required><br><br>
+
+        <!-- Hobbies -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="Reading"> Reading
+        <input type="checkbox" name="hobby" value="Sports"> Sports
+        <input type="checkbox" name="hobby" value="Music"> Music
+        <input type="checkbox" name="hobby" value="Traveling"> Traveling
+        <input type="checkbox" name="hobby" value="Other"> Other<br><br>
+
+        <label>If Other, specify:</label><br>
+        <input type="text" name="other_hobby"><br><br>
+
+        <!-- Favorite Color -->
+        <label>Favorite Color:</label><br>
+        <input type="color" name="fav_color"><br><br>
+
+        <!-- Additional Information -->
+        <h3>Additional Information</h3>
+
+        <label>Upload Resume (Optional):</label><br>
+        <input type="file" name="resume"><br><br>
+
+        <label>Salary Expectation (Your Opinion):</label><br>
+        <textarea name="salary_expectation" rows="3" cols="30"
+            placeholder="Write your expected salary and reason"></textarea><br><br>
+
+        <!-- Skill Rating -->
+        <label>Rate Your Skills (1-5):</label><br>
+        <select name="rating" required>
+            <option value="">Select Rating</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select><br><br>
+
+        <!-- Comments -->
+        <label>Additional Comments:</label><br>
+        <textarea name="comments" rows="4" cols="30"></textarea><br><br>
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset Form">
+
+    </form>
+    </main>
+    <footer>
+        <p>&copy; All right reserved by <b>son hak</b></p>
+    </footer>
+
+
+</body>
+
+</html>
